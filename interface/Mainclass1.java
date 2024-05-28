@@ -1,0 +1,28 @@
+interface A
+{
+	void test();
+}
+abstract class B
+{
+	abstract public void walk();
+}
+class C extends B implements A
+{
+	public void test()
+	{
+		System.out.println("test method");
+	}
+	public void walk()
+	{
+		System.out.println("walk method");
+	}
+}
+class  Mainclass1
+{
+	public static void main(String[] args) 
+	{
+	   C c1 = new C();
+	   c1.test();
+	   c1.walk();
+	}
+}

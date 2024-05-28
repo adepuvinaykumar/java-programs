@@ -1,0 +1,4 @@
+interface D
+{
+	void test();	
+}

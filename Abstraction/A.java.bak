@@ -1,0 +1,4 @@
+interace A
+{
+	void test();
+}
